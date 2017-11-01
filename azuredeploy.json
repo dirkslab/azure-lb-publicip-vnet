@@ -44,7 +44,7 @@
     }
   },
   "variables": {
-    "templateBaseUrl": "https://raw.githubusercontent.com/dirkslab/azure-mongodb-replicaset/publicLBsetup/",
+    "templateBaseUrl": "https://raw.githubusercontent.com/dirkslab/azure-lb-publicip-vnet/master/",
     "sharedTemplateUrl": "[concat(variables('templateBaseUrl'), 'sharedfrontend-resources.json')]",
     "networkSettings": {
       "vnetName": "[parameters('virtualNetworkName')]",
